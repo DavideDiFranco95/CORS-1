@@ -15,6 +15,7 @@ const fetchApi = async () => {
 function App() {
   return (
     <div className="App">
+      <img src = {logo} alt='React Img'/>
       <button id="clickMe" onClick={fetchApi}>8080</button>
     </div>
   );
